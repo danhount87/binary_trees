@@ -1,9 +1,8 @@
 #include "binary_trees.h"
-
+/*@zinzinpolice*/
 /**
  * binary_tree_is_perfect - checks if a binary tree is perfect
  * @tree: a pointer to the root node of the tree to check
- *
  * Return: 1 if the tree is perfect
  *         0 if the tree is not perfect
  *         0 if tree is NULL
@@ -46,9 +45,8 @@ int _pow_recursion(int x, int y)
 }
 
 /**
- * binary_tree_size - measures the size of a binary tree
- * @tree: tree to measure the size of
- *
+ * binary_tree_size - measures the size
+ * @tree: tree to measure the size
  * Return: size of the tree
  *         0 if tree is NULL
  */
@@ -62,8 +60,7 @@ size_t binary_tree_size(const binary_tree_t *tree)
 
 /**
  * binary_tree_height - measures the height of a binary tree
- * @tree: tree to measure the height of
- *
+ * @tree: tree to measure the height
  * Return: height of the tree
  *         0 if tree is NULL
  */
